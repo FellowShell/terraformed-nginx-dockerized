@@ -7,7 +7,7 @@ variable "project_name" {
 variable "nginx_image" {
   description = "Docker image to use for the nginx container"
   type        = string
-  default     = "nginx:latest"
+  default     = "nginx:1.27-alpine"
 }
 
 variable "container_name" {

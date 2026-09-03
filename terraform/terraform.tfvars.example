@@ -1,0 +1,4 @@
+# Copy this file to terraform.tfvars and adjust values as needed.
+# terraform.tfvars is gitignored so local overrides don't get committed.
+
+external_port = 8080
